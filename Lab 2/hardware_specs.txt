@@ -1,0 +1,6 @@
+•	Computer Type: Surface Laptop
+•	CPU: 11th Gen Intel(R) Core(TM) i5-11300H
+•	Memory: 15.8 GB
+•	OS: Windows 11 25H2
+•	HD: 237 GB
+•	Display Resolution: 2400x1600
