@@ -6,7 +6,18 @@
 <p>How much does each pizza cost?</p>
 <input type="number" id="cost">
   // ok so uhhhh button, we need a button that on click multiplies like "cost" and "pizza" lets just start by adding a button. 
-<button type="button"> Calculate Total </button>
+<button type="button" onclick="Calculatepizza()"> Calculate Total </button>
+
+<p id="finalcalc"></p>
+  
+<script>
+var Pizza = document.getElementById("pizza")
+var Cost = document.getElementById("pizza")
+function Calculatepizza() {
+let Total = Pizza * Cost
+document.getElementById("finalcalc").innerHTML = Total;
+}
+</script>
 </body>
 </html>
 
