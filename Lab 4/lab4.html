@@ -11,9 +11,9 @@
 
   
 <script>
-let Pizza = Number(document.getElementById("pizza").value);
-let Cost = Number(document.getElementById("cost").value);
-let Total = Pizza * Cost
+var Pizza = Number(document.getElementById("pizza").value);
+var Cost = Number(document.getElementById("cost").value);
+var Total = parseInt(Pizza) * parseInt(Cost);
 function Calculatepizza() {
 document.getElementById("finalcalc").innerHTML = Total;
 }
