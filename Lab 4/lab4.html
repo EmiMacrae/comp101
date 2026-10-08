@@ -2,9 +2,9 @@
 <body>
 <h2> Pizza Cost Calculator </h2>
 <p>How many pizzas do you want? Yay Pizza! </p>
-<input type="number" value="pizza"> <br>
+<input type="number" id="pizza"> <br>
 <p>How much does each pizza cost?</p>
-<input type="number" value="cost">
+<input type="number" id="cost">
 <button type="button" onclick="Calculatepizza()"> Calculate Total </button>
 
 <p id="finalcalc"></p>
@@ -13,7 +13,7 @@
 <script>
 var Pizza = Number(document.getElementById("pizza").value);
 var Cost = Number(document.getElementById("cost").value);
-var Total = Pizza * Cost;
+var Total = Pizza * Cost
 function Calculatepizza() {
 document.getElementById("finalcalc").innerHTML = Total;
 }
