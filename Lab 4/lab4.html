@@ -8,10 +8,11 @@
 <button type="button" onclick="Calculatepizza()"> Calculate Total </button>
 
 <p id="finalcalc"></p>
+
   
 <script>
-var Pizza = document.getElementById("pizza")
-var Cost = document.getElementById("cost")
+let Pizza = Number(document.getElementById("pizza").value);
+let Cost = Number(document.getElementById("cost").value);
 let Total = Pizza * Cost
 function Calculatepizza() {
 document.getElementById("finalcalc").innerHTML = Total;
