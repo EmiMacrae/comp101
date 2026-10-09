@@ -4,7 +4,7 @@
 <Style>
 
 body { background-color : black; }
-p < color : white; }
+p { color : white; }
 
 </style>
 
